@@ -219,7 +219,7 @@ extension ExtensionDialog on GetInterface {
             child: Text(
               textConfirm ?? "Ok",
               style:
-                  TextStyle(color: confirmTextColor ?? theme.backgroundColor),
+                  TextStyle(color: confirmTextColor ?? theme.cardColor),
             ),
             onPressed: () {
               onConfirm?.call();
